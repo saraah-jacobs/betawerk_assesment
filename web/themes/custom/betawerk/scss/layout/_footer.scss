@@ -1,0 +1,23 @@
+.number {
+    color: $main-colour;
+    font-size: 3em;
+}
+
+.main-footer{
+    padding-top: 1em;
+    border-top: 0.1em solid rgba(44, 38, 94, 0.15);
+    a{
+        color: $main-colour
+    }
+}
+
+.nav-footer{
+    li{
+        list-style: none;
+        padding-right: 1em;
+    }
+}
+
+.light {
+    color: #b8b8b8;
+}

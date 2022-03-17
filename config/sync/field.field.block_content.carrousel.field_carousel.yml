@@ -1,0 +1,21 @@
+uuid: 686ff582-03f8-41ad-a598-729f9dbd3d36
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.carrousel
+    - field.storage.block_content.field_carousel
+  module:
+    - text
+id: block_content.carrousel.field_carousel
+field_name: field_carousel
+entity_type: block_content
+bundle: carrousel
+label: Carrousel
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

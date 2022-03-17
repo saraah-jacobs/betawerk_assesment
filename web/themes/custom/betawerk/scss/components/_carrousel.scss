@@ -1,0 +1,32 @@
+.carr{
+    padding: 50px;
+    border-radius: 1em;
+}
+
+.carr-home {
+    background-color: rgba(235, 237, 255, 0.5);
+}
+
+.carr-trainer{
+    background-color: rgba(245, 139, 162, 0.25);
+}
+
+@include media-breakpoint-up(lg) {
+    .carr{
+        position: relative;
+        margin-bottom:15vh;
+    
+        .field--name-field-image{
+            position: absolute;
+            top: -7vh;
+        }
+
+        img{
+            display:block;
+            height:auto;
+            max-width: 50%;
+            
+        }
+    
+    }
+}

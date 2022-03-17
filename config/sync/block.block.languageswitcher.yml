@@ -1,0 +1,20 @@
+uuid: fa087017-23a1-4d08-9411-06ea83cea61e
+langcode: nl
+status: false
+dependencies:
+  module:
+    - language
+  theme:
+    - betawerk
+id: languageswitcher
+theme: betawerk
+region: header
+weight: 0
+provider: null
+plugin: 'language_block:language_interface'
+settings:
+  id: 'language_block:language_interface'
+  label: 'Language switcher'
+  label_display: '0'
+  provider: language
+visibility: {  }

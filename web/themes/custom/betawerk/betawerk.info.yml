@@ -1,0 +1,16 @@
+name: Betawerk
+type: theme
+description: 'Custom subtheme for Betawerk project based on Bootstrap theme.'
+package: Zero
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: bootstrap5
+libraries:
+  - betawerk/global-styling
+regions:
+  top-header: 'Top Header'
+  header: Header
+  content: Content
+  breadcrumb: 'Breadcrumb'
+  sidebar_first: 'Sidebar first'
+  footer: 'Footer'

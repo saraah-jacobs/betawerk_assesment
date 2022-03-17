@@ -1,0 +1,8 @@
+uuid: bed2f913-74b8-416f-a605-4aa9a5f09836
+langcode: en
+status: true
+dependencies: {  }
+id: hero
+label: Hero
+revision: 0
+description: 'Image and text at top of page'

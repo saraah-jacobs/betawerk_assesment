@@ -1,0 +1,20 @@
+// Theme styling
+@import "abstracts/variables_theme";
+
+// Include bootstrap.
+@import "../../../../themes/contrib/bootstrap5/scss/style";
+
+// Base
+@import "base/general";
+@import "base/reset";
+
+// Components
+@import "components/nav";
+@import "components/hero";
+@import "components/carrousel";
+@import "components/button";
+
+//layout
+@import "layout/block";
+@import "layout/header";
+@import "layout/footer";

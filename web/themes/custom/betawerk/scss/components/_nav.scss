@@ -1,0 +1,15 @@
+.menu--main {
+  .nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $main-colour;
+    &:hover {
+      font-weight: 700;
+    }
+    &.is-active {
+      font-weight: 700;
+      border-bottom: 0.1em solid $main-colour;
+    }
+  }
+}
+

@@ -1,0 +1,22 @@
+uuid: edb09f02-90f8-416a-ba5e-cf0bd9217046
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - betawerk
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: betawerk_messages
+theme: betawerk
+region: top-header
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

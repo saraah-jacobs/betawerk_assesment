@@ -1,0 +1,18 @@
+.hero {
+    .layout__region--first {
+        color: $main-colour;
+        font-weight: 700;
+        font-size: 2.5em;
+        display: flex;
+        align-items: center;
+    }
+
+    @include media-breakpoint-up(lg) {
+        .hero {
+            img{
+                margin-bottom: -1em;
+            }
+            
+        }
+    }
+}

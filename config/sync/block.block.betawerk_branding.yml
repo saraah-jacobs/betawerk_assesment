@@ -1,0 +1,25 @@
+uuid: cf2a8613-502e-471f-bb43-4d08cda07818
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - betawerk
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: betawerk_branding
+theme: betawerk
+region: header
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

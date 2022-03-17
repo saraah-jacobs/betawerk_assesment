@@ -1,0 +1,98 @@
+uuid: f6668126-6a4e-4c1b-82e5-bfb0bbf1a7ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.carrousel
+    - field.field.block_content.carrousel.field_carousel
+    - field.field.block_content.carrousel.field_image
+  module:
+    - layout_builder
+    - layout_discovery
+    - svg_image
+    - text
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          c3484ccd-f1e0-4e22-bda1-ff40e5f89a12:
+            uuid: c3484ccd-f1e0-4e22-bda1-ff40e5f89a12
+            region: first
+            configuration:
+              id: 'field_block:block_content:carrousel:field_image'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: ''
+                  svg_attributes:
+                    width: null
+                    height: null
+                  svg_render_as_image: true
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          3ecb753c-f3a8-49c8-9831-2155b92c2242:
+            uuid: 3ecb753c-f3a8-49c8-9831-2155b92c2242
+            region: second
+            configuration:
+              id: 'field_block:block_content:carrousel:field_carousel'
+              label: Carrousel
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
+id: block_content.carrousel.default
+targetEntityType: block_content
+bundle: carrousel
+mode: default
+content:
+  field_carousel:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      svg_attributes:
+        width: null
+        height: null
+      svg_render_as_image: true
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

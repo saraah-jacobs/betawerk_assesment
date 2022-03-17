@@ -1,0 +1,22 @@
+uuid: 80122aa7-e49c-4f39-a0c8-025f9c2758af
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - betawerk
+_core:
+  default_config_hash: '-laWx8WA-ikiIEH3NJQ0hVbjqk3iEuBms91LB0B4IQU'
+id: betawerk_help
+theme: betawerk
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

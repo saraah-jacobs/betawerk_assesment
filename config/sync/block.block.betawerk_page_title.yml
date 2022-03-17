@@ -1,0 +1,20 @@
+uuid: 3aed90cd-c4ad-4b0e-a1ab-a19afb110250
+langcode: en
+status: true
+dependencies:
+  theme:
+    - betawerk
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: betawerk_page_title
+theme: betawerk
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }
